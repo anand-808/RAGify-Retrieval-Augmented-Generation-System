@@ -171,30 +171,6 @@ Configured in `.github/workflows/deploy.yml`
 
 ---
 
-## 📎 To-Do List
-
-- [ ] Insert architecture diagram
-- [ ] Finalize frontend (admin panel)
-- [ ] Enable document upload UI
-- [ ] Add real-time feedback rating system
-- [ ] Add multi-user support with roles
-- [ ] Enhance generator fallback handling
-
----
-
-## 🤝 Contributing
-
-We welcome contributions!  
-Feel free to open issues, suggest features, or submit pull requests.
-
----
-
-## 📄 License
-
-Licensed under the [MIT License](LICENSE)
-
----
-
 ## 🙌 Acknowledgments
 
 - [HuggingFace Transformers](https://huggingface.co/)
