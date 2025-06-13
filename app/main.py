@@ -1,5 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
+from app.auth.firebase_auth import verify_firebase_token
 
 app = FastAPI(
     title="RAGify API",
@@ -20,3 +21,7 @@ app.add_middleware(
 @app.get("/")
 def read_root():
     return {"message": "Welcome to RAGify API"}
+
+@app.get("/protected")
+def protected_route(user_data=Depends(verify_firebase_token)):
+    return {"message": f"Hello {user_data['email']}, you're authenticated!"}
