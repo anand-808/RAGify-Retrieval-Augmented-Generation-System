@@ -1,12 +1,14 @@
 from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from app.auth.firebase_auth import verify_firebase_token
+from app.routes import test
 
 app = FastAPI(
     title="RAGify API",
     description="Retrieval-Augmented Generation system using FastAPI",
     version="1.0.0"
 )
+app.include_router(test.router)
 
 # Allow CORS (for frontend or external tools later)
 app.add_middleware(
