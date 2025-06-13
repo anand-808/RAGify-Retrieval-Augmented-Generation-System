@@ -17,8 +17,8 @@ Use RAGify to:
 
 ## 📐 Architecture Diagram
 
-📌 _[Insert architecture diagram here]_  
-_A high-level diagram will show: Data Ingestion → Chunking → Embedding → Vector DB → Retrieval → Generation → Response_
+📌 _  ![ChatGPT Image Jun 13, 2025, 01_06_00 PM](https://github.com/user-attachments/assets/bf241a03-407b-4b61-bd5f-5e056f5433de)
+![ChatGPT Image Jun 13, 2025, 01_06_00 PM](https://github.com/user-attachments/assets/bf241a03-407b-4b61-bd5f-5e056f5433de)
 
 ---
 
